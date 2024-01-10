@@ -1,0 +1,16 @@
+import { CommonModule } from '@angular/common';
+import { Component, HostListener, OnInit } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
+@Component({
+  selector: 'app-template-binding',
+  standalone: true,
+  imports: [CommonModule, FormsModule],
+  templateUrl: './template-binding.component.html',
+  styleUrl: './template-binding.component.scss'
+})
+export class TemplateBindingComponent {
+
+  public name: string = 'John Doe';
+
+}
